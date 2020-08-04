@@ -5,7 +5,8 @@ lambdata - a collection of Data Science helper functions
 import setuptools
 
 REQUIRED = [
-    "pandas"
+    "pandas",
+    "scikit-learn"
 ]
 
 with open("README.md", "r") as file:
@@ -13,7 +14,7 @@ with open("README.md", "r") as file:
 
 setuptools.setup(
     name="lambdata-allan-gon",
-    version="0.3.3",
+    version="0.3.5",
     author="Allan Gongora",
     description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,
