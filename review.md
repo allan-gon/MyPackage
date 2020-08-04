@@ -6,8 +6,9 @@ you have a dataset included for testing the package.
 # Classes
  you made the classes as requested  by the assignment. 
 
-#suggestion
+# Suggestion
  I would probably summarize the docstring and the PEP 8 only issue was some lines were too long
 
-#Score 
-Score: 2, 
+# Score 
+
+Score: 2,
