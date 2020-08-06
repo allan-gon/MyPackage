@@ -52,3 +52,14 @@ def train_val_test_split(df, target_col, test_size, val_size, random_state=None)
     X, X_test, y, y_test = train_test_split(features, target, test_size=test_size, random_state=random_state)
     X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=val_size, random_state=random_state)
     return X_train, X_val, X_test, y_train, y_val, y_test
+
+if __name__ == "__main__":
+    X_train, X_val, X_test, y_train, y_val, y_test = train_val_test_split(DF, 'genre', .09, .1)
+    print(f"X_train: {X_train.shape}")
+    print(f"X_val: {X_val.shape}")
+    print(f"X_test: {X_test.shape}")
+    print(f"y_train: {y_train.shape}")
+    print(f"y_train: {y_val.shape}")
+    print(f"y_test: {y_test.shape}")
+    # print(DF.columns)
+    # train_val_test_split(DF, 'genre', .09, .1)
